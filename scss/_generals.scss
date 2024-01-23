@@ -110,10 +110,11 @@ img {
 }
 .build__container {
   display: flex;
+  align-items: right;
 }
-
 .build__title {
   position: relative;
+  top: 180px;
   width: 445px;
   padding-top: 54px;
   font-size: 48px;
@@ -129,6 +130,29 @@ img {
   background-color: $light-coral ;
   content: '';
 }
+.build__list {
+  margin-top: 180px;
+  margin-left: 125px;
+}
+.bottom__image {
+  background-image: url(../imgs/Group\ 12.svg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 244px;
+    position: relative;
+    left: 586px;
+    bottom: 147px;
+
+}
+
+.build__image {
+  margin-right: 23px;
+}
+.build__item--wrapper {
+  margin-top: 40px;
+  margin-right: 23px;
+  margin-bottom: 32px;
+}
 .build__item--title {
   color: $light-coral;
   font-size: 18px;
@@ -136,7 +160,7 @@ img {
 }
 .build__item--text {
   width: 445px;
-  color: $fff;
+  color: $white;
   font-size: 15px;
   line-height: 25px;
 }
