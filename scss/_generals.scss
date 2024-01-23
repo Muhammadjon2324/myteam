@@ -167,3 +167,42 @@ img {
 .build__item {
   display: flex;
 }
+
+
+
+
+
+
+
+// about intro
+
+.about__container {
+  margin-top: 124px;
+  display: flex;
+  align-items: end;
+}
+
+.about__title {
+  width: 350px;
+  color: $white;
+  font-size: 64px;
+  line-height: 100px; 
+}
+
+.about__text {
+  width: 730px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.about__text::after{
+  background-image: url(../imgs/about\ 1.svg);
+}
+.about__text::before {
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  content: '';
+  top: 260px;
+  background-color: $light-coral;
+}
+
