@@ -96,3 +96,50 @@ img {
   top: 0;
   background-color: $rapture-blue;
 }
+
+
+// build
+.build {
+  position: relative;
+  top: 250px;
+  height: 684px ;
+  background-color: $sacramento-state-green;
+  background-image: url('../img/create-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right calc(50% - 670px) bottom;
+}
+.build__container {
+  display: flex;
+}
+
+.build__title {
+  position: relative;
+  width: 445px;
+  padding-top: 54px;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.build__title::before {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 4px;
+  background-color: $light-coral ;
+  content: '';
+}
+.build__item--title {
+  color: $light-coral;
+  font-size: 18px;
+  line-height: 28px;
+}
+.build__item--text {
+  width: 445px;
+  color: $fff;
+  font-size: 15px;
+  line-height: 25px;
+}
+.build__item {
+  display: flex;
+}
